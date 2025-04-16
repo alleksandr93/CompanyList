@@ -1,0 +1,45 @@
+.wrapper {
+  width: 48px;
+  height: 800px;
+  background-color: rgba(59, 59, 59, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+
+  .logoGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    a.notActive {
+      background-color: rgba(59, 59, 59, 1);
+
+      &:hover {
+        border-radius: 8px;
+        background-color: rgba(255, 255, 255, 0.1); // Изменение цвета при наведении
+      }
+    }
+
+    a.active {
+      border-radius: 8px;
+      background-color: rgba(255, 255, 255, 0.2); // Цвет фона
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.1); // Изменение цвета при наведении
+      }
+
+    }
+
+  }
+
+  .logoutGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}

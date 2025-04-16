@@ -1,0 +1,28 @@
+.wrapper{
+  width: 100%;
+  padding: 24px 32px;
+  box-shadow: 0 3px 8px 0 #0000001F;
+  border-radius: 16px;
+}
+.title{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+}
+.titleGroup{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.photoGroup{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 16px;
+  img{
+    width: 144px;
+    height: 108px;
+    border-radius: 8px;
+  }
+}

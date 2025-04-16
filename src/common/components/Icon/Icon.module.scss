@@ -1,0 +1,18 @@
+.icon-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px; // Размер круга
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f0f0f0; // Цвет фона
+
+  &:hover {
+    background-color: #e0e0e0; // Изменение цвета при наведении
+}
+
+  svg {
+    width: 20px; // Размер иконки внутри круга
+    height: 20px;
+}
+}

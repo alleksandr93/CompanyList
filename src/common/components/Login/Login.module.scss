@@ -1,0 +1,110 @@
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.loginForm {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.formHeader {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #f64e4e;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+
+  strong {
+    color: #333;
+  }
+
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.formField {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+}
+
+label {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: #808080;
+
+}
+
+input {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  outline: none;
+  padding: 10px 12px;
+  border: 1px solid #CCCCCC;
+  border-radius: 8px;
+  transition: border-color 0.3s;
+
+  &:hover {
+  border-color: #808080;
+  }
+
+  &:focus {
+    border-color: #35CDFD;
+  }
+}
+
+.errorInput {
+  border-color: #ff4d4f;
+}
+
+.errorMessage {
+color: #ff4d4f;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+
+
+}
+
+.submitButton {
+  padding: 10px 12px;
+  background-color: #3B3B3B;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.48px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 1rem;
+
+  &:hover {
+    background-color: #626262;
+  }
+  &:active {
+    background-color: #757575;
+  }
+}

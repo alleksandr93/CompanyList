@@ -1,0 +1,61 @@
+
+.navigation {
+  display: flex;
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 800px;
+    padding: 20px 24px;
+
+    .titleGroup {
+      display: flex;
+      flex-direction: column;
+
+      .title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+      }
+
+      .text {
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 16px;
+        letter-spacing: 0.24px;
+
+      }
+    }
+
+    .BTNGroup {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 40px;
+      &:before{
+        position: absolute;
+        top: -20px;
+        left: 0;
+        right: 0;
+        content: '';
+        height: 1px;
+        background: rgba(0, 0, 0, 0.5);
+      }
+    }
+
+    .footer {
+      margin-top: 516px;
+
+      .smallText {
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 16px;
+        letter-spacing: 0.24px;
+        color: #BEBEBE;
+      }
+    }
+  }
+}
